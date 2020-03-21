@@ -46,11 +46,13 @@ banner{
 }
 .navbar-brand {
     padding: 0;
+    align-items: center;
+    display: flex;
 }
 
 .logo {
     margin: 0;
-    max-height: 50px;
+    height: 30px;
 }
 
 /* Fim do meu CSS */
