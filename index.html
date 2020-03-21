@@ -21,16 +21,14 @@
 
   <!-- Navegação -->
   <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> -->
-  <nav class="navbar bg-dark navbar-fixed-top">
-    <div class="container-fluid">
+  <nav class="navbar bg-dark navbar-fixed-top flex-row">
+    <!-- <div class="container-fluid">
       <div class="navbar-header">
         <a class="navbar-brand" href="#">WebSiteName</a>
-      </div>
-      <!-- <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Page 1</a></li>
-        <li><a href="#">Page 2</a></li>
-      </ul> -->
+      </div> -->
+      <!-- <a class="navbar-brand mr-auto" href="/" title="logo">
+      <span><img src="img/mabelli-logo.svg"></span>
+        </a>
       <ul class="nav navbar-nav navbar-right module-group">
         <li>
             <a href="https://www.instagram.com/mabelli.cilios" target="_blank">
@@ -48,7 +46,45 @@
             </a>
         </li>
       </ul>
-    </div>
+    </div> -->
+    <!-- the icons on the right (xs screens)
+    The two (and maybe more) icons SHOULD NOT WRAP
+    -->
+    <ul class="nav navbar-nav ml-auto flex-row justify-content-end hidden-sm-up">
+      <li class="nav-item">
+          <a href="https://www.instagram.com/mabelli.cilios" target="_blank">
+              <img alt="Facebook Mabelli Cílios" src="img/logo-instagram.svg" title="Instagram">
+          </a>
+      </li>
+      <li class="nav-item">
+          <a href="http://facebook.com/mabelli.cilios/" target="_blank">
+              <img alt="Instagram Mabelli Cílios" src="img/logo-facebook.svg" title="Facebook">
+          </a>
+      </li>
+      <li class="nav-item">
+          <a href="https://wa.me/5511995088802" target="_blank">
+              <img alt="WhatsApp Mabelli Cílios" src="img/logo-whatsapp.svg" title="WhatsApp">
+          </a>
+      </li>
+    </ul>
+
+    <!-- the icons on the right (bigger devices) -->
+    <ul class="nav navbar-nav ml-auto justify-content-end hidden-xs-down">
+        <li class="nav-item">
+            <a href="https://www.instagram.com/mabelli.cilios" target="_blank">
+                <img alt="Facebook Mabelli Cílios" src="img/logo-instagram.svg" title="Instagram">
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="http://facebook.com/mabelli.cilios/" target="_blank">
+                <img alt="Instagram Mabelli Cílios" src="img/logo-facebook.svg" title="Facebook">
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="https://wa.me/5511995088802" target="_blank">
+                <img alt="WhatsApp Mabelli Cílios" src="img/logo-whatsapp.svg" title="WhatsApp">
+            </a>
+        </li>
   </nav>
 
   <!-- Conteúdo Principal -->
