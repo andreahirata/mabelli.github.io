@@ -43,8 +43,6 @@ banner{
 /* Inicio do meu CSS */
 .navbar-brand {
     padding: 5px;
-    align-items: center;
-    display: flex;
 }
 
 .logo {
