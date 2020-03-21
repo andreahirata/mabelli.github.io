@@ -27,6 +27,10 @@ banner{
   height: auto;
 }
 
+/* Prevent word-wrap  */
+.navbar .nav li {
+white-space: nowrap; 
+}
 
 /*Ajusta o layout de acordo com o tamanho da tela*/
 /* @media (min-width: 992px) {
