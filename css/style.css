@@ -45,7 +45,7 @@ banner{
     background-color: #DFBAF5!important;
 }
 .navbar-brand {
-    padding: 0;
+    padding: 5px;
     align-items: center;
     display: flex;
 }
