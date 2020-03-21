@@ -13,21 +13,6 @@ body {
     background-color: white;
 }
 
-.portfolio-item {
-    margin-bottom: 30px;
-}
-
-.pagination {
-    margin-bottom: 30px;
-}
-
-banner{
-  width: auto;
-  display: block;
-  height: auto;
-}
-
-
 /*Ajusta o layout de acordo com o tamanho da tela*/
 /* @media (min-width: 992px) {
     body {
@@ -50,4 +35,7 @@ banner{
     height: 30px;
 }
 
+.img {
+    padding: 2px;
+}
 /* Fim do meu CSS */
