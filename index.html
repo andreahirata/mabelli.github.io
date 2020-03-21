@@ -15,7 +15,54 @@
 <body>
 
   <!-- Navegação -->
-  <nav class="navbar bg-navigation navbar-expand fixed-top navbar-light justify-content-between" style="background-color: #DFBAF5;">
+  <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
+    <a class="navbar-brand mr-0 mr-md-2" href="/">
+    <img src="img/logo-mabelli.svg" alt="Mabelli Cílios" style="height: 30px">
+    </a>
+
+    <div class="navbar-nav-scroll">
+      <ul class="navbar-nav bd-navbar-nav flex-row">
+        <li class="nav-item">
+          <a class="nav-link" href="/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Home');">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Localização');">Como funciona</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'FAQ');">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Onde Estamos');">Onde Estamos</a>
+        </li>
+      </ul>
+    </div>
+
+    <ul class="navbar-nav ml-md-auto">
+
+    <li class="nav-item text-center">
+        <a class="nav-link" href="https://www.instagram.com/mabelli.cilios" target="_blank">
+            <span class="d-none d-sm-inline d-xl-block px-1">
+                <img alt="Facebook Mabelli Cílios" src="img/logo-instagram.svg" title="Instagram">
+            </span>
+        </a>
+    </li>
+    <li class="nav-item text-center">
+        <a class="nav-link" href="http://facebook.com/mabelli.cilios/" target="_blank">
+            <span class="d-none d-sm-inline d-xl-block px-1">
+                <img alt="Instagram Mabelli Cílios" src="img/logo-facebook.svg" title="Facebook">
+            </span>
+        </a>
+    </li>
+    <li class="nav-item text-center">
+        <a class="nav-link" href="https://wa.me/5511995088802" target="_blank">
+            <span class="d-none d-sm-inline d-xl-block px-1">
+                <img alt="WhatsApp Mabelli Cílios" src="img/logo-whatsapp.svg" title="WhatsApp">
+            </span>
+        </a>
+    </li>
+    </ul>
+  </header>
+  <!-- <nav class="navbar bg-navigation navbar-expand fixed-top navbar-light justify-content-between" style="background-color: #DFBAF5;">
       <div class="container-fluid">
           <ul class="navbar-nav">
               <li class="nav-item text-center">
@@ -48,7 +95,7 @@
               </li>
           </ul>
       </div>
-  </nav>
+  </nav> -->
 
   <!-- Conteúdo Principal -->
 
