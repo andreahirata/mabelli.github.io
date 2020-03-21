@@ -41,8 +41,16 @@ banner{
 
 
 /* Inicio do meu CSS */
-.bg-dark {
+.bg-navigation {
     background-color: #DFBAF5!important;
+}
+.navbar-brand {
+    padding: 0;
+}
+
+.logo {
+    margin: 0;
+    max-height: 50px;
 }
 
 /* Fim do meu CSS */
