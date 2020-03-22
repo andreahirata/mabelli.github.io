@@ -27,13 +27,9 @@ body {
 
 
 /* Inicio do meu CSS */
-.carousel-item {
-  height: 50vh;
-  min-height: 350px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.btn.btn-default,
+.btn.btn-default:focus{
+  background-color:#b68bc2;
+  color:#fff;
 }
 /* Fim do meu CSS */
